@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.darkTheme {
+ @apply dark:bg-slate-600 dark:text-white/90 dark:shadow-indigo-500/10 transition-colors
+}
